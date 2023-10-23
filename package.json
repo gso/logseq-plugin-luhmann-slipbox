@@ -1,0 +1,25 @@
+{
+  "name": "logseq-plugin-luhmann-slipbox",
+  "version": "0.0.1",
+  "description": "Toggle a page reference to an embed.",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "default": "dist/index.html",
+  "author": "Logseq",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "license": "MIT",
+  "logseq": {
+    "id": "_rw0rys037"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.15"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
